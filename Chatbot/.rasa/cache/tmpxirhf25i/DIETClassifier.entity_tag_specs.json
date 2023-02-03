@@ -1,0 +1,20 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-benh_tieu_hoa",
+      "2": "I-benh_tieu_hoa",
+      "3": "L-benh_tieu_hoa",
+      "4": "U-benh_tieu_hoa",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-benh_tieu_hoa": 1,
+      "I-benh_tieu_hoa": 2,
+      "L-benh_tieu_hoa": 3,
+      "U-benh_tieu_hoa": 4,
+      "O": 0
+    },
+    "num_tags": 5
+  }
+]

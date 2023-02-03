@@ -1,0 +1,394 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hi
+      - xin chào
+      - chào bạn
+      - chào bot
+      - bắt đầu
+      - hello
+      - chào
+      - bạn là ai
+      - tôi đang nói chuyện với ai vậy
+      - hãy cho tôi biết bạn là ai
+      - đây là đâu
+      - đây là gì
+      - bạn là gì
+      - ai đang nói chuyện đấy
+      - ai ở đầu bên kia đấy
+
+  - intent: goodbye
+    examples: |
+      - bye
+      - bye bye
+      - cảm ơn bạn
+      - cảm ơn bạn, chào bạn nhé
+      - chào bot nhé
+      - chào bạn nhé
+      - hẹn gặp lại
+      - tôi đi đây
+
+  - intent: chan_doan_benh
+    examples: |
+      - chẩn đoán bệnh
+      - chuẩn đoán bệnh
+      - tôi muốn biết tôi bị bệnh gì
+      - tôi cảm thấy không khỏe
+      - tôi cảm thấy không được khỏe
+      - mình cảm thấy không khỏe
+      - mình cảm thấy không được khỏe
+      - tôi bị đau bụng
+      - tôi bị đau
+      - tôi cảm thấy đau
+      - tôi bị sốt
+      - tôi bị đi ngoài
+      - tôi bị đau dạ dày
+      - tôi cảm thấy rất khó chịu
+      - tôi cảm thấy khó chịu
+      - mình cảm thấy hơi khó chịu
+      - tôi cảm thấy không được khỏe
+      - bạn có thể dự đoán cho tôi bị bệnh gì được không
+      - dự đoán bệnh
+      - dự đoán bệnh cho tôi
+      - dự đoán bệnh của tôi
+      - tôi cần tư vấn
+      - tư vấn cho tôi
+      - tôi muốn bạn tư vấn cho tôi
+      - hãy tư vấn cho tôi
+
+  - intent: thong_tin_ve_benh
+    examples: |
+      - hỏi thông tin về bệnh
+      - thông tin về bệnh
+      - tôi muốn biết thông tin về bệnh
+      - mình muốn biết thông tin về bệnh
+      - bot có thể cho tôi biết thông tin về bệnh
+      - tôi muốn tìm thông tin về bệnh
+      - tìm thông tin về bệnh
+      - cho tôi biết thông tin về bệnh
+      - cho mình biết thông tin về bệnh
+      - hỏi về bệnh
+      - tôi muốn biết về bệnh
+      - mình muốn biết về bệnh tiêu hóa
+      - tôi muốn biết về bệnh tiêu hóa
+
+  - intent: thong_tin
+    examples: |
+      - thông tin bệnh [viêm loét dạ dày](benh_tieu_hoa)
+      - thông tin bệnh [táo bón](benh_tieu_hoa)
+      - thông tin bệnh [trĩ](benh_tieu_hoa)
+      - thông tin bệnh [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - thông tin bệnh [sa dạ dày](benh_tieu_hoa)
+      - thông tin bệnh [nứt kẽ hậu môn](benh_tieu_hoa)
+      - thông tin bệnh [viêm túi thừa](benh_tieu_hoa)
+      - thông tin bệnh [rối loạn dạ dày](benh_tieu_hoa)
+      - thông tin bệnh [tiêu chảy](benh_tieu_hoa)
+      - thông tin bệnh [trào ngược dạ dày](benh_tieu_hoa)
+      - tôi muốn biết thông tin bệnh về [sa dạ dày](benh_tieu_hoa)
+      - tôi muốn biết thông tin bệnh về [viêm túi thừa](benh_tieu_hoa)
+      - tôi muốn biết thông tin bệnh về [viêm loét dạ dày](benh_tieu_hoa)
+      - tôi muốn biết thông tin bệnh về [tiêu chảy](benh_tieu_hoa)
+      - tôi muốn biết về bệnh [viêm loét dạ dày](benh_tieu_hoa)
+      - tôi muốn biết về bệnh [trào ngược dạ dày](benh_tieu_hoa)
+      - tôi muốn biết về bệnh [viêm túi thừa](benh_tieu_hoa)
+      - tôi muốn biết về bệnh [nứt kẽ hậu môn](benh_tieu_hoa)
+      - bot hãy cho tôi biết về bệnh [trào ngược dạ dày](benh_tieu_hoa)
+      - bot hãy cho tôi biết về bệnh [viêm túi thừa](benh_tieu_hoa)
+      - bot hãy cho tôi biết về bệnh [trĩ](benh_tieu_hoa)
+      - bot hãy cho tôi biết về bệnh [viêm loét dạ dày](benh_tieu_hoa)
+      - cho tôi biết về bệnh [viêm túi thừa](benh_tieu_hoa)
+      - cho tôi biết về bệnh [rối loạn dạ dày](benh_tieu_hoa)
+      - cho tôi biết về bệnh [tiêu chảy](benh_tieu_hoa)
+      - cho tôi biết về bệnh [viêm loét dạ dày](benh_tieu_hoa)
+      - thông tin bệnh [trào ngược dạ dày](benh_tieu_hoa) là gì
+      - thông tin bệnh [viêm túi thừa](benh_tieu_hoa) là gì
+      - thông tin bệnh [sa dạ dày](benh_tieu_hoa) là gì
+      - thông tin bệnh [tiêu chảy](benh_tieu_hoa) là gì
+      - thông tin bệnh [trĩ](benh_tieu_hoa) là gì
+      - thông tin bệnh [nứt kẽ hậu môn](benh_tieu_hoa) là gì
+      - bạn biết gì về bệnh [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - bạn biết gì về bệnh [tiêu chảy](benh_tieu_hoa)
+      - bạn biết gì về bệnh [viêm túi thừa](benh_tieu_hoa)
+      - bạn biết gì về bệnh [trào ngược dạ dày](benh_tieu_hoa)
+      - bạn biết gì về bệnh [rối loạn dạ dày](benh_tieu_hoa)
+      - bạn biết gì về bệnh [táo bón](benh_tieu_hoa)
+      - [sa dạ dày](benh_tieu_hoa)
+      - [viêm túi thừa](benh_tieu_hoa)
+      - [trĩ](benh_tieu_hoa)
+      - [viêm loét dạ dày](benh_tieu_hoa)
+      - [tiêu chảy](benh_tieu_hoa)
+      - [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - bệnh [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - bệnh [táo bón](benh_tieu_hoa)
+      - bệnh [tiêu chảy](benh_tieu_hoa)
+      - bệnh [nứt kẽ hậu môn](benh_tieu_hoa)
+      - bệnh [rối loạn dạ dày](benh_tieu_hoa)
+      - bệnh [trào ngược dạ dày](benh_tieu_hoa)
+  - intent: khai_niem
+    examples: |
+      - khái niệm bệnh [viêm loét dạ dày](benh_tieu_hoa)
+      - khái niệm bệnh [táo bón](benh_tieu_hoa)
+      - khái niệm bệnh [trĩ](benh_tieu_hoa)
+      - khái niệm bệnh [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - khái niệm bệnh [sa dạ dày](benh_tieu_hoa)
+      - khái niệm bệnh [nứt kẽ hậu môn](benh_tieu_hoa)
+      - khái niệm bệnh [viêm túi thừa](benh_tieu_hoa)
+      - khái niệm bệnh [rối loạn dạ dày](benh_tieu_hoa)
+      - khái niệm bệnh [tiêu chảy](benh_tieu_hoa)
+      - khái niệm bệnh [trào ngược dạ dày](benh_tieu_hoa)
+      - bệnh [sa dạ dày](benh_tieu_hoa) là gì
+      - bệnh [táo bón](benh_tieu_hoa) là gì
+      - bệnh [viêm đại tràng mãn tính](benh_tieu_hoa) là gì
+      - bệnh [rối loạn dạ dày](benh_tieu_hoa) là gì
+      - bệnh [nứt kẽ hậu môn](benh_tieu_hoa) là gì
+      - bệnh [tiêu chảy](benh_tieu_hoa) là gì
+      - [táo bón](benh_tieu_hoa) là gì
+      - [tiêu chảy](benh_tieu_hoa) là gì
+      - [trĩ](benh_tieu_hoa) là gì
+      - [viêm loét dạ dày](benh_tieu_hoa) là gì
+      - [sa dạ dày](benh_tieu_hoa) là gì
+      - [trào ngược dạ dày](benh_tieu_hoa) là gì
+  - intent: nguyen_nhan
+    examples: |
+      - nguyên nhân bệnh [viêm loét dạ dày](benh_tieu_hoa)
+      - nguyên nhân bệnh [táo bón](benh_tieu_hoa)
+      - nguyên nhân bệnh [trĩ](benh_tieu_hoa)
+      - nguyên nhân bệnh [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - nguyên nhân bệnh [sa dạ dày](benh_tieu_hoa)
+      - nguyên nhân bệnh [nứt kẽ hậu môn](benh_tieu_hoa)
+      - nguyên nhân bệnh [viêm túi thừa](benh_tieu_hoa)
+      - nguyên nhân bệnh [rối loạn dạ dày](benh_tieu_hoa)
+      - nguyên nhân bệnh [tiêu chảy](benh_tieu_hoa)
+      - nguyên nhân bệnh [trào ngược dạ dày](benh_tieu_hoa)
+      - tại sao tôi lại bị bệnh [rối loạn dạ dày](benh_tieu_hoa)
+      - tại sao tôi lại bị bệnh [táo bón](benh_tieu_hoa)
+      - tại sao tôi lại bị bệnh [tiêu chảy](benh_tieu_hoa)
+      - tại sao tôi lại bị bệnh [trào ngược dạ dày](benh_tieu_hoa)
+      - tại sao tôi lại bị bệnh [viêm túi thừa](benh_tieu_hoa)
+      - tại sao tôi lại bị bệnh [nứt kẽ hậu môn](benh_tieu_hoa)
+      - nguyên nhân dẫn đến bệnh [viêm loét dạ dày](benh_tieu_hoa)
+      - nguyên nhân dẫn đến bệnh [sa dạ dày](benh_tieu_hoa)
+      - nguyên nhân dẫn đến bệnh [rối loạn dạ dày](benh_tieu_hoa)
+      - nguyên nhân dẫn đến bệnh [viêm túi thừa](benh_tieu_hoa)
+      - nguyên nhân dẫn đến bệnh [trào ngược dạ dày](benh_tieu_hoa)
+      - nguyên nhân dẫn đến bệnh [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - nguyên nhân nào dẫn đến bệnh [nứt kẽ hậu môn](benh_tieu_hoa)
+      - nguyên nhân nào dẫn đến bệnh [táo bón](benh_tieu_hoa)
+      - nguyên nhân nào dẫn đến bệnh [trào ngược dạ dày](benh_tieu_hoa)
+      - nguyên nhân nào dẫn đến bệnh [viêm túi thừa](benh_tieu_hoa)
+      - nguyên nhân nào dẫn đến bệnh [trĩ](benh_tieu_hoa)
+      - nguyên nhân nào dẫn đến bệnh [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - nguyên nhân [viêm túi thừa](benh_tieu_hoa)
+      - nguyên nhân [sa dạ dày](benh_tieu_hoa)
+      - nguyên nhân [rối loạn dạ dày](benh_tieu_hoa)
+      - nguyên nhân [tiêu chảy](benh_tieu_hoa)
+      - nguyên nhân [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - nguyên nhân [táo bón](benh_tieu_hoa)
+
+  - intent: trieu_chung
+    examples: |
+      - triệu chứng bệnh [viêm loét dạ dày](benh_tieu_hoa)
+      - triệu chứng bệnh [táo bón](benh_tieu_hoa)
+      - triệu chứng bệnh [trĩ](benh_tieu_hoa)
+      - triệu chứng bệnh [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - triệu chứng bệnh [sa dạ dày](benh_tieu_hoa)
+      - triệu chứng bệnh [nứt kẽ hậu môn](benh_tieu_hoa)
+      - triệu chứng bệnh [viêm túi thừa](benh_tieu_hoa)
+      - triệu chứng bệnh [rối loạn dạ dày](benh_tieu_hoa)
+      - triệu chứng bệnh [tiêu chảy](benh_tieu_hoa)
+      - triệu chứng bệnh [trào ngược dạ dày](benh_tieu_hoa)
+      - bệnh [rối loạn dạ dày](benh_tieu_hoa) có những triệu chứng nào
+      - bệnh [sa dạ dày](benh_tieu_hoa) có những triệu chứng nào
+      - bệnh [trào ngược dạ dày](benh_tieu_hoa) có những triệu chứng nào
+      - bệnh [viêm loét dạ dày](benh_tieu_hoa) có những triệu chứng nào
+      - bệnh [nứt kẽ hậu môn](benh_tieu_hoa) có những triệu chứng nào
+      - bệnh [táo bón](benh_tieu_hoa) có những triệu chứng nào
+      - triệu chứng [táo bón](benh_tieu_hoa)
+      - triệu chứng [trào ngược dạ dày](benh_tieu_hoa)
+      - triệu chứng [nứt kẽ hậu môn](benh_tieu_hoa)
+      - triệu chứng [viêm túi thừa](benh_tieu_hoa)
+      - triệu chứng [sa dạ dày](benh_tieu_hoa)
+      - triệu chứng [viêm loét dạ dày](benh_tieu_hoa)
+      - người bị bệnh [viêm túi thừa](benh_tieu_hoa) thì sẽ bị làm sao
+      - người bị bệnh [trĩ](benh_tieu_hoa) thì sẽ bị làm sao
+      - người bị bệnh [viêm loét dạ dày](benh_tieu_hoa) thì sẽ bị làm sao
+      - người bị bệnh [tiêu chảy](benh_tieu_hoa) thì sẽ bị làm sao
+      - người bị bệnh [trào ngược dạ dày](benh_tieu_hoa) thì sẽ bị làm sao
+      - người bị bệnh [viêm đại tràng mãn tính](benh_tieu_hoa) thì sẽ bị làm sao
+      - người bị bệnh [sa dạ dày](benh_tieu_hoa) thì sẽ ra sao
+      - người bị bệnh [viêm túi thừa](benh_tieu_hoa) thì sẽ ra sao
+      - người bị bệnh [rối loạn dạ dày](benh_tieu_hoa) thì sẽ ra sao
+      - người bị bệnh [tiêu chảy](benh_tieu_hoa) thì sẽ ra sao
+      - người bị bệnh [trĩ](benh_tieu_hoa) thì sẽ ra sao
+      - người bị bệnh [viêm đại tràng mãn tính](benh_tieu_hoa) thì sẽ ra sao
+      - người bị bệnh [trào ngược dạ dày](benh_tieu_hoa) thì sẽ có triệu chứng nào
+      - người bị bệnh [nứt kẽ hậu môn](benh_tieu_hoa) thì sẽ có triệu chứng nào
+      - người bị bệnh [viêm loét dạ dày](benh_tieu_hoa) thì sẽ có triệu chứng nào
+      - người bị bệnh [sa dạ dày](benh_tieu_hoa) thì sẽ có triệu chứng nào
+      - người bị bệnh [táo bón](benh_tieu_hoa) thì sẽ có triệu chứng nào
+      - người bị bệnh [trĩ](benh_tieu_hoa) thì sẽ có triệu chứng nào
+      - người bị bệnh [viêm đại tràng mãn tính](benh_tieu_hoa) thì có biểu hiện gì
+      - người bị bệnh [viêm túi thừa](benh_tieu_hoa) thì có biểu hiện gì
+      - người bị bệnh [trào ngược dạ dày](benh_tieu_hoa) thì có biểu hiện gì
+      - người bị bệnh [táo bón](benh_tieu_hoa) thì có biểu hiện gì
+      - người bị bệnh [tiêu chảy](benh_tieu_hoa) thì có biểu hiện gì
+      - người bị bệnh [rối loạn dạ dày](benh_tieu_hoa) thì có biểu hiện gì
+      - biểu hiện của bệnh [viêm loét dạ dày](benh_tieu_hoa)
+      - biểu hiện của bệnh [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - biểu hiện của bệnh [trĩ](benh_tieu_hoa)
+      - biểu hiện của bệnh [viêm túi thừa](benh_tieu_hoa)
+      - biểu hiện của bệnh [sa dạ dày](benh_tieu_hoa)
+      - biểu hiện của bệnh [tiêu chảy](benh_tieu_hoa)
+      - biểu hiện của bệnh [nứt kẽ hậu môn](benh_tieu_hoa) là gì
+      - biểu hiện của bệnh [rối loạn dạ dày](benh_tieu_hoa) là gì
+      - biểu hiện của bệnh [sa dạ dày](benh_tieu_hoa) là gì
+      - biểu hiện của bệnh [táo bón](benh_tieu_hoa) là gì
+      - biểu hiện của bệnh [viêm loét dạ dày](benh_tieu_hoa) là gì
+      - biểu hiện của bệnh [tiêu chảy](benh_tieu_hoa) là gì
+      - biểu hiện bệnh [viêm túi thừa](benh_tieu_hoa) là gì
+      - biểu hiện bệnh [rối loạn dạ dày](benh_tieu_hoa) là gì
+      - biểu hiện bệnh [nứt kẽ hậu môn](benh_tieu_hoa) là gì
+      - biểu hiện bệnh [tiêu chảy](benh_tieu_hoa) là gì
+      - biểu hiện bệnh [trĩ](benh_tieu_hoa) là gì
+      - biểu hiện bệnh [viêm đại tràng mãn tính](benh_tieu_hoa) là gì
+      - bị bệnh [táo bón](benh_tieu_hoa) thì sẽ như nào
+      - bị bệnh [trĩ](benh_tieu_hoa) thì sẽ như nào
+      - bị bệnh [trào ngược dạ dày](benh_tieu_hoa) thì sẽ như nào
+      - bị bệnh [rối loạn dạ dày](benh_tieu_hoa) thì sẽ như nào
+      - bị bệnh [nứt kẽ hậu môn](benh_tieu_hoa) thì sẽ như nào
+      - bị bệnh [sa dạ dày](benh_tieu_hoa) thì sẽ như nào
+      - bị bệnh [trào ngược dạ dày](benh_tieu_hoa) thì sẽ như thế nào
+      - bị bệnh [tiêu chảy](benh_tieu_hoa) thì sẽ như thế nào
+      - bị bệnh [sa dạ dày](benh_tieu_hoa) thì sẽ như thế nào
+      - bị bệnh [viêm loét dạ dày](benh_tieu_hoa) thì sẽ như thế nào
+      - bị bệnh [trĩ](benh_tieu_hoa) thì sẽ như thế nào
+      - bị bệnh [viêm đại tràng mãn tính](benh_tieu_hoa) thì sẽ như thế nào
+      - bị bệnh [viêm đại tràng mãn tính](benh_tieu_hoa) thì sẽ bị làm sao
+      - bị bệnh [viêm túi thừa](benh_tieu_hoa) thì sẽ bị làm sao
+      - bị bệnh [táo bón](benh_tieu_hoa) thì sẽ bị làm sao
+      - bị bệnh [tiêu chảy](benh_tieu_hoa) thì sẽ bị làm sao
+      - bị bệnh [sa dạ dày](benh_tieu_hoa) thì sẽ bị làm sao
+      - bị bệnh [trĩ](benh_tieu_hoa) thì sẽ bị làm sa
+
+  - intent: phuong_phap_dieu_tri
+    examples: |
+      - phương pháp điều trị bệnh [viêm loét dạ dày](benh_tieu_hoa)
+      - phương pháp điều trị bệnh [táo bón](benh_tieu_hoa)
+      - phương pháp điều trị bệnh [trĩ](benh_tieu_hoa)
+      - phương pháp điều trị bệnh [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - phương pháp điều trị bệnh [sa dạ dày](benh_tieu_hoa)
+      - phương pháp điều trị bệnh [nứt kẽ hậu môn](benh_tieu_hoa)
+      - phương pháp điều trị bệnh [viêm túi thừa](benh_tieu_hoa)
+      - phương pháp điều trị bệnh [rối loạn dạ dày](benh_tieu_hoa)
+      - phương pháp điều trị bệnh [tiêu chảy](benh_tieu_hoa)
+      - phương pháp điều trị bệnh [trào ngược dạ dày](benh_tieu_hoa)
+      - cách chữa bệnh [tiêu chảy](benh_tieu_hoa)
+      - cách chữa bệnh [rối loạn dạ dày](benh_tieu_hoa)
+      - cách chữa bệnh [nứt kẽ hậu môn](benh_tieu_hoa)
+      - cách chữa bệnh [sa dạ dày](benh_tieu_hoa)
+      - cách chữa bệnh [viêm túi thừa](benh_tieu_hoa)
+      - cách chữa bệnh [trào ngược dạ dày](benh_tieu_hoa)
+      - chữa bệnh [nứt kẽ hậu môn](benh_tieu_hoa)
+      - chữa bệnh [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - chữa bệnh [trĩ](benh_tieu_hoa)
+      - chữa bệnh [trào ngược dạ dày](benh_tieu_hoa)
+      - chữa bệnh [viêm túi thừa](benh_tieu_hoa)
+      - chữa bệnh [rối loạn dạ dày](benh_tieu_hoa
+      - điều trị bệnh [táo bón](benh_tieu_hoa)
+      - điều trị bệnh [rối loạn dạ dày](benh_tieu_hoa)
+      - điều trị bệnh [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - điều trị bệnh [trĩ](benh_tieu_hoa)
+      - điều trị bệnh [viêm túi thừa](benh_tieu_hoa)
+      - điều trị bệnh [tiêu chảy](benh_tieu_hoa)
+      - biện pháp chữa bệnh [trĩ](benh_tieu_hoa)
+      - biện pháp chữa bệnh [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - biện pháp chữa bệnh [viêm túi thừa](benh_tieu_hoa)
+      - biện pháp chữa bệnh [viêm loét dạ dày](benh_tieu_hoa)
+      - biện pháp chữa bệnh [rối loạn dạ dày](benh_tieu_hoa)
+      - biện pháp chữa bệnh [sa dạ dày](benh_tieu_hoa)
+      - bệnh [táo bón](benh_tieu_hoa) có những cách chữa nào
+      - bệnh [viêm đại tràng mãn tính](benh_tieu_hoa) có những cách chữa nào
+      - bệnh [rối loạn dạ dày](benh_tieu_hoa) có những cách chữa nào
+      - bệnh [viêm túi thừa](benh_tieu_hoa) có những cách chữa nào
+      - bệnh [tiêu chảy](benh_tieu_hoa) có những cách chữa nào
+      - bệnh [nứt kẽ hậu môn](benh_tieu_hoa) có những cách chữa nào
+      - cách khắc phục bệnh [rối loạn dạ dày](benh_tieu_hoa)
+      - cách khắc phục bệnh [sa dạ dày](benh_tieu_hoa)
+      - cách khắc phục bệnh [trĩ](benh_tieu_hoa)
+      - cách khắc phục bệnh [viêm loét dạ dày](benh_tieu_hoa)
+      - cách khắc phục bệnh [trào ngược dạ dày](benh_tieu_hoa)
+      - cách khắc phục bệnh [tiêu chảy](benh_tieu_hoa)
+      - cách chữa bệnh [trĩ](benh_tieu_hoa) như thế nào
+      - cách chữa bệnh [viêm đại tràng mãn tính](benh_tieu_hoa) như thế nào
+      - cách chữa bệnh [sa dạ dày](benh_tieu_hoa) như thế nào
+      - cách chữa bệnh [viêm túi thừa](benh_tieu_hoa) như thế nào
+      - cách chữa bệnh [tiêu chảy](benh_tieu_hoa) như thế nào
+      - cách chữa bệnh [trào ngược dạ dày](benh_tieu_hoa) như thế nào
+      - cách điều trị bệnh [tiêu chảy](benh_tieu_hoa) như thế nào
+      - cách điều trị bệnh [viêm loét dạ dày](benh_tieu_hoa) như thế nào
+      - cách điều trị bệnh [nứt kẽ hậu môn](benh_tieu_hoa) như thế nào
+      - cách điều trị bệnh [trào ngược dạ dày](benh_tieu_hoa) như thế nào
+      - cách điều trị bệnh [táo bón](benh_tieu_hoa) như thế nào
+      - cách điều trị bệnh [rối loạn dạ dày](benh_tieu_hoa) như thế nào
+      - làm thế nào để điều trị bệnh [viêm loét dạ dày](benh_tieu_hoa)
+      - làm thế nào để điều trị bệnh [viêm túi thừa](benh_tieu_hoa)
+      - làm thế nào để điều trị bệnh [trào ngược dạ dày](benh_tieu_hoa)
+      - làm thế nào để điều trị bệnh [tiêu chảy](benh_tieu_hoa)
+      - làm thế nào để điều trị bệnh [táo bón](benh_tieu_hoa)
+      - làm thế nào để điều trị bệnh [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - làm thế nào để chữa bệnh [trào ngược dạ dày](benh_tieu_hoa)
+      - làm thế nào để chữa bệnh [trĩ](benh_tieu_hoa)
+      - làm thế nào để chữa bệnh [nứt kẽ hậu môn](benh_tieu_hoa)
+      - làm thế nào để chữa bệnh [sa dạ dày](benh_tieu_hoa)
+      - làm thế nào để chữa bệnh [tiêu chảy](benh_tieu_hoa)
+      - làm thế nào để chữa bệnh [viêm túi thừa](benh_tieu_hoa)
+      - làm thế nào để khắc phục bệnh [sa dạ dày](benh_tieu_hoa)
+      - làm thế nào để khắc phục bệnh [rối loạn dạ dày](benh_tieu_hoa)
+      - làm thế nào để khắc phục bệnh [trào ngược dạ dày](benh_tieu_hoa)
+      - làm thế nào để khắc phục bệnh [tiêu chảy](benh_tieu_hoa)
+      - làm thế nào để khắc phục bệnh [nứt kẽ hậu môn](benh_tieu_hoa)
+      - làm thế nào để khắc phục bệnh [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - bệnh [táo bón](benh_tieu_hoa) có khó chữa không
+      - bệnh [trĩ](benh_tieu_hoa) có khó chữa không
+      - bệnh [viêm đại tràng mãn tính](benh_tieu_hoa) có khó chữa không
+      - bệnh [nứt kẽ hậu môn](benh_tieu_hoa) có khó chữa không
+      - bệnh [viêm túi thừa](benh_tieu_hoa) có khó chữa không
+      - bệnh [sa dạ dày](benh_tieu_hoa) có khó chữa không
+      - bệnh [táo bón](benh_tieu_hoa) có điều trị khó không
+      - bệnh [viêm loét dạ dày](benh_tieu_hoa) có điều trị khó không
+      - bệnh [viêm đại tràng mãn tính](benh_tieu_hoa) có điều trị khó không
+      - bệnh [trào ngược dạ dày](benh_tieu_hoa) có điều trị khó không
+      - bệnh [viêm túi thừa](benh_tieu_hoa) có điều trị khó không
+      - bệnh [sa dạ dày](benh_tieu_hoa) có điều trị khó không
+      - bệnh [viêm túi thừa](benh_tieu_hoa) có khó điều trị không
+      - bệnh [táo bón](benh_tieu_hoa) có khó điều trị không
+      - bệnh [nứt kẽ hậu môn](benh_tieu_hoa) có khó điều trị không
+      - bệnh [tiêu chảy](benh_tieu_hoa) có khó điều trị không
+      - bệnh [trĩ](benh_tieu_hoa) có khó điều trị không
+      - bệnh [sa dạ dày](benh_tieu_hoa) có khó điều trị không
+      - bệnh [sa dạ dày](benh_tieu_hoa) có dễ điều trị không
+      - bệnh [trào ngược dạ dày](benh_tieu_hoa) có dễ điều trị không
+      - bệnh [trĩ](benh_tieu_hoa) có dễ điều trị không
+      - bệnh [viêm túi thừa](benh_tieu_hoa) có dễ điều trị không
+      - bệnh [táo bón](benh_tieu_hoa) có dễ điều trị không
+      - bệnh [tiêu chảy](benh_tieu_hoa) có dễ điều trị không
+      - những cách để chữa bệnh [trĩ](benh_tieu_hoa)
+      - những cách để chữa bệnh [viêm túi thừa](benh_tieu_hoa)
+      - những cách để chữa bệnh [trào ngược dạ dày](benh_tieu_hoa)
+      - những cách để chữa bệnh [nứt kẽ hậu môn](benh_tieu_hoa)
+      - những cách để chữa bệnh [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - những cách để chữa bệnh [rối loạn dạ dày](benh_tieu_hoa)
+      - những phương pháp để chữa bệnh [rối loạn dạ dày](benh_tieu_hoa)
+      - những phương pháp để chữa bệnh [táo bón](benh_tieu_hoa)
+      - những phương pháp để chữa bệnh [trào ngược dạ dày](benh_tieu_hoa)
+      - những phương pháp để chữa bệnh [sa dạ dày](benh_tieu_hoa)
+      - những phương pháp để chữa bệnh [trĩ](benh_tieu_hoa)
+      - những phương pháp để chữa bệnh [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - những biện pháp chữa bệnh [tiêu chảy](benh_tieu_hoa)
+      - những biện pháp chữa bệnh [táo bón](benh_tieu_hoa)
+      - những biện pháp chữa bệnh [viêm đại tràng mãn tính](benh_tieu_hoa)
+      - những biện pháp chữa bệnh [trĩ](benh_tieu_hoa)
+      - những biện pháp chữa bệnh [nứt kẽ hậu môn](benh_tieu_hoa)
+      - những biện pháp chữa bệnh [viêm túi thừa](benh_tieu_hoa)

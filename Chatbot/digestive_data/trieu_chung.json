@@ -1,0 +1,231 @@
+[
+    {
+      "TC": "đi ngoài phân bình thường",
+      "code": "P-01"
+    },
+    {
+      "TC": "phân lỏng",
+      "code": "P-02"
+    },
+    {
+      "TC": "tiêu chảy liên tục",
+      "code": "P-02"
+    },
+    {
+      "TC": "phân cứng",
+      "code": "P-03"
+    },
+    {
+      "TC": "đại tiện ít",
+      "code": "P-03"
+    },
+    {
+      "TC": "phân dính máu",
+      "code": "P-04"
+    },
+    {
+      "TC": "phân có lẫn nhày ",
+      "code": "P-05"
+    },
+    {
+      "TC": "bình thường không đau nhói",
+      "code": "D-01"
+    },
+    {
+      "TC": "đau tức ngực",
+      "code": "D-02"
+    },
+    {
+      "TC": "đau quặn bụng",
+      "code": "D-03"
+    },
+    {
+      "TC": "đau bụng",
+      "code": "D-03"
+    },
+    {
+      "TC": "ngón tay khoèo",
+      "code": "D-04"
+    },
+    {
+      "TC": "đau khớp",
+      "code": "D-04"
+    },
+    {
+      "TC": "đau bên trái bụng dưới",
+      "code": "D-05"
+    },
+    {
+      "TC": "đau khi đi đại tiện",
+      "code": "D-06"
+    },
+    {
+      "TC": "đau vùng thượng vị",
+      "code": "D-07"
+    },
+    {
+      "TC": "đau quanh rốn",
+      "code": "D-08"
+    },
+    {
+      "TC": "đau nhói xương sườn",
+      "code": "D-09"
+    },
+    {
+      "TC": "đau vùng hậu môn",
+      "code": "D-10"
+    },
+    {
+      "TC": "tinh thần cảm xúc bình thường",
+      "code": "T-01"
+    },
+    {
+      "TC": "chóng no",
+      "code": "T-02"
+    },
+    {
+      "TC": "ăn không ngon",
+      "code": "T-02"
+    },
+    {
+      "TC": "ăn kém",
+      "code": "T-02"
+    },
+    {
+      "TC": "cơ thể mệt mỏi",
+      "code": "T-03"
+    },
+    {
+      "TC": "tinh thần suy nhược",
+      "code": "T-03"
+    },
+    {
+      "TC": "mất ngủ",
+      "code": "T-04"
+    },
+    {
+      "TC": "ngủ không ngon giấc",
+      "code": "T-04"
+    },
+    {
+      "TC": "thường xuyên cáu gắt",
+      "code": "T-05"
+    },
+    {
+      "TC": "chóng mặt",
+      "code": "T-06"
+    },
+    {
+      "TC": "đau đầu",
+      "code": "T-06"
+    },
+    {
+      "TC": "căng thẳng khi đi đại tiện",
+      "code": "T-07"
+    },
+    {
+      "TC": "biểu hiện ngoài bình thường",
+      "code": "N-01"
+    },
+    {
+      "TC": "chân tay lạnh",
+      "code": "N-02"
+    },
+    {
+      "TC": "da khô nhăn nheo",
+      "code": "N-03"
+    },
+    {
+      "TC": "mắt trũng",
+      "code": "N-04"
+    },
+    {
+      "TC": "da sần sùi thô ráp",
+      "code": "N-05"
+    },
+    {
+      "TC": "cơ thể bình thường",
+      "code": "C-01"
+    },
+    {
+      "TC": "sốt",
+      "code": "C-02"
+    },
+    {
+      "TC": "khàn giọng",
+      "code": "C-03"
+    },
+    {
+      "TC": "đau họng",
+      "code": "C-03"
+    },
+    {
+      "TC": "viêm họng",
+      "code": "C-03"
+    },
+    {
+      "TC": "buồn nôn",
+      "code": "C-04"
+    },
+    {
+      "TC": "nôn",
+      "code": "C-04"
+    },
+    {
+      "TC": "rối loạn tiêu hóa",
+      "code": "C-05"
+    },
+    {
+      "TC": "nôn ra máu",
+      "code": "C-06"
+    },
+    {
+      "TC": "tiểu tiện ít hoặc vô niệu",
+      "code": "C-07"
+    },
+    {
+      "TC": "ợ chua",
+      "code": "C-08"
+    },
+    {
+      "TC": "ợ hơi",
+      "code": "C-08"
+    },
+    {
+      "TC": "mót rặn",
+      "code": "C-09"
+    },
+    {
+      "TC": "dạ dày bình thường",
+      "code": "DD-01"
+    },
+    {
+      "TC": "xuất huyết dạ dày",
+      "code": "DD-02"
+    },
+    {
+      "TC": "nóng rát dạ dày",
+      "code": "DD-03"
+    },
+    {
+      "TC": "hậu môn bình thường",
+      "code": "H-01"
+    },
+    {
+      "TC": "sa bũi trĩ",
+      "code": "H-02"
+    },
+    {
+      "TC": "xung quanh kẽ hậu môn có các vết loét",
+      "code": "H-03"
+    },
+    {
+      "TC": "xung quanh kẽ hậu môn dày lên và cứng",
+      "code": "H-03"
+    },
+    {
+      "TC": "hậu môn ngứa rát ẩm ướt",
+      "code": "H-04"
+    }
+  ]
+  

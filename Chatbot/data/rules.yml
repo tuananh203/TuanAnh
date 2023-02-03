@@ -1,0 +1,24 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+  
+- rule: Activate form
+  steps:
+  - intent: chan_doan_benh
+  - action: chan_doan_benh_form
+  - active_loop: chan_doan_benh_form
+
+- rule: Submit form
+  condition:
+  - active_loop: chan_doan_benh_form
+  steps:
+  - action: chan_doan_benh_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: action_ask_slots_values

@@ -1,0 +1,192 @@
+version: "3.1"
+
+session_config:
+  session_expiration_time: 100
+  carry_over_slots_to_new_session: true
+
+intents:
+  - greet
+  - goodbye
+  - chan_doan_benh
+  - thong_tin_ve_benh
+  - thong_tin
+  - khai_niem
+  - nguyen_nhan
+  - trieu_chung
+  - phuong_phap_dieu_tri
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_thong_tin_ve_benh
+  - action_ask_thong_tin
+  - action_ask_khai_niem
+  - action_ask_nguyen_nhan
+  - action_ask_trieu_chung
+  - action_ask_phuong_phap_dieu_tri
+  - action_ask_done
+  - action_ask_slots_values
+  - utter_slots_values
+  - utter_p
+  - utter_d
+  - utter_n
+  - utter_c
+  - utter_dd
+  - utter_h
+  - validate_chan_doan_benh_form
+
+responses:
+  utter_greet:
+    - text: "Chào bạn! Tôi là trợ lý ảo được viết bởi Vũ Xuân Hoàng và Đặng Tuấn Anh.\nTôi có thể tư vấn cho bạn những gì liên quan đến bệnh tiêu hóa.\nBạn muốn hỏi tôi điều gì?"
+      buttons:
+        - title: "Chẩn đoán bệnh"
+          payload: "/chan_doan_benh"
+        - title: "Thông tin về bệnh"
+          payload: "/thong_tin_ve_benh"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_thong_tin_ve_benh:
+    - text: |-
+        ? Bạn muốn hỏi thông tin về bệnh gì
+
+        * Nếu bạn chỉ muốn biết về Khái niệm, Nguyên nhân, Triệu chứng hay Phương pháp điều trị thì hãy sử dụng cú pháp:
+        - Cái bạn muốn biết + Tên bệnh
+
+        * Ví dụ:
+        - Khái niệm bệnh trĩ
+        - Triệu chứng bệnh Viêm loét dạ dày
+
+        * Các bệnh liên quan đến đường tiêu hóa có trong hệ thống:
+        - viêm loét dạ dày
+        - táo bón
+        - trĩ
+        - viêm đại tràng mãn tính
+        - sa dạ dày
+        - nứt kẽ hậu môn
+        - viêm túi thừa
+        - rối loạn dạ dày
+        - tiêu chảy
+        - trào ngược dạ dày
+      buttons:
+        - title: "Viêm loét dạ dày"
+          payload: /thong_tin{{"benh_tieu_hoa":"viêm loét dạ dày"}}
+        - title: "Táo bón"
+          payload: /thong_tin{{"benh_tieu_hoa":"táo bón"}}
+        - title: "Bệnh trĩ"
+          payload: /thong_tin{{"benh_tieu_hoa":"trĩ"}}
+
+  utter_slots_values:
+    - text: |-
+        Chẩn đoán: bệnh {benh}
+        Độ tương đồng: {s}%
+      buttons:
+        - title: "Thông tin"
+          payload: /thong_tin{{"benh_tieu_hoa":"{benh}"}}
+  utter_p:
+    - text: |-
+        Đi ngoài?
+  utter_d:
+    - text: |-
+        Đau?
+  utter_t:
+    - text: |-
+        Tinh thần, cảm xúc?
+  utter_n:
+    - text: |-
+        Biểu hiện bên ngoài?
+  utter_c:
+    - text: |-
+        Tình trạng cơ thể?
+  utter_dd:
+    - text: |-
+        Tình trạng dạ dày?
+  utter_h:
+    - text: |-
+        Trình trạng hậu môn?
+forms:
+  chan_doan_benh_form:
+    required_slots:
+      - done
+      - p
+      - d
+      - t
+      - n
+      - c
+      - dd
+      - h
+
+entities:
+  - benh_tieu_hoa
+
+slots:
+  benh_tieu_hoa:
+    type: any
+    mappings:
+      - type: from_entity
+        entity: benh_tieu_hoa
+  done:
+    type: bool
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: chan_doan_benh_form
+            requested_slot: done
+  p:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: chan_doan_benh_form
+            requested_slot: p
+  d:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: chan_doan_benh_form
+            requested_slot: d
+  t:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: chan_doan_benh_form
+            requested_slot: t
+  n:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: chan_doan_benh_form
+            requested_slot: n
+  c:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: chan_doan_benh_form
+            requested_slot: c
+  dd:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: chan_doan_benh_form
+            requested_slot: dd
+  h:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: chan_doan_benh_form
+            requested_slot: h

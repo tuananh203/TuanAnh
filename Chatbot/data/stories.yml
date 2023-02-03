@@ -1,0 +1,49 @@
+version: "3.1"
+
+stories:
+
+  - story: path 1
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: chan_doan_benh
+    - action: chan_doan_benh_form
+    - active_loop: null
+    - action: action_ask_slots_values
+
+  - story: path 2
+    steps:
+    - intent: chan_doan_benh
+    - action: chan_doan_benh_form
+    - active_loop: null
+    - action: action_ask_slots_values
+
+  - story: path 3
+    steps:
+    - intent: thong_tin_ve_benh
+    - action: utter_thong_tin_ve_benh
+
+  - story: path 4
+    steps:
+    - intent: thong_tin
+    - action: action_ask_thong_tin
+
+  - story: path 5
+    steps:
+    - intent: khai_niem
+    - action: action_ask_khai_niem
+
+  - story: path 6
+    steps:
+    - intent: nguyen_nhan
+    - action: action_ask_nguyen_nhan
+
+  - story: path 7
+    steps:
+    - intent: trieu_chung
+    - action: action_ask_trieu_chung
+
+  - story: path 8
+    steps:
+    - intent: phuong_phap_dieu_tri
+    - action: action_ask_phuong_phap_dieu_tri

@@ -1,0 +1,106 @@
+[
+    {
+        "ma": "ta_trang",
+        "ten": [
+            "viêm loét dạ dày",
+            "tá tràng",
+            "viêm loét dạ dày tá tràng"
+        ],
+        "khai_niem": "Là bệnh mạn tính, tổn thương là những ổ loét ở niêm mạc dạ dày, tá tràng và có thể xâm lấn sâu hơn qua lớp dưới niêm mạc.",
+        "trieu_chung": "Đau vùng bụng trên rốn (đau vùng thượng vi); đầy bụng, khó tiêu, buồn nôn hay nôn; mất ngủ, ngủ không ngon giấc; ợ hơi, ợ chua hoặc nóng rát thượng vị; rối loạn tiêu hóa(tiêu chảy, táo bón).",
+        "phuong_phap_dieu_tri": "Điều chỉnh và duy trì các chế độ ăn uống, nghỉ ngơi và sinh hoạt điều độ, hạn chế ăn các thức ăn có tính kích thích, người bệnh nên đến bệnh viện, phòng khám gần nhất để được chẩn đoán; đồng thời có các phương pháp, phác đồ điều trị bệnh thích hợp. Đầu tiên là ngưng ngay thuốc kháng viêm không sreroid (NSAID) hay dùng các phác đồ tiệt trừ vi khuẩn Helicobacter pylori, nếu có. Hiện nay do việc đề kháng thuốc lan rộng của vi khuẩn nên phác đồ thường dùng là phác đồ 4 thuốc có Bismuth hoặc có Levofloxacin.",
+        "nguyen_nhan": "Vi khuẩn Helicobacter pylori (H.pylori), do thuốc như chống viêm phi steroid (NSAIDs), corticoid...là nguyên nhân hàng đầu hiện nay. Bên cạnh đó là thói quen ăn uống và sinh hoạt không hợp lý của bệnh nhân."
+    },
+    {
+        "ma": "tao_bon",
+        "ten": [
+            "táo bón"
+        ],
+        "khai_niem": "Là tình trạng nhu động ruột không xảy ra thường xuyên hoặc khó khăn trong việc đi đại tiện kéo dài trong vài tuần hoặc lâu hơn.",
+        "trieu_chung": "Đi đại tiện ít hơn 3 lần/1 tuần, phân cứng và khó đẩy phân ra ngoài, đau khi đi đại tiện, đau bụng, máu trên bề mặt phân cứng.",
+        "phuong_phap_dieu_tri": "Bổ sung thực phẩm chức năng tạo xơ không kê đơn hoặc chất làm mềm phân, thuốc đạn glycerin có thể được sử dụng để làm mềm phân, thuốc nhuận tràng hoặc thuốc xổ, đến bệnh viện để thụt tháo.",
+        "nguyen_nhan": "Nhịn đi đại tiện, chế độ ăn uống không đủ trái cây và rau củ giàu chất xơ, uống không đủ nước, dùng một số loại thuốc, bao gồm một số thuốc chống trầm cảm,…"
+    },
+    {
+        "ma": "tri",
+        "ten": [
+            "bệnh trĩ",
+            "trĩ"
+        ],
+        "khai_niem": "Là một bệnh lý liên quan đến biến đổi cấu trúc bình thường của ống hậu môn. Bệnh trĩ là do tăng áp lực trong các tĩnh mạch hậu môn hoặc trực tràng, các tĩnh mạch do chịu chèn ép từ bên trong có khả năng xung huyết, chảy máu, có khi bị sa ra ngoài.Dựa vào vị trí phát sinh búi trĩ ở phía trên hay phía dưới ranh giới đường lược ở hậu môn, bệnh trĩ được chia ra các loại trĩ nội, trĩ ngoại và trĩ hỗn hợp.",
+        "trieu_chung": "Đi ngoài ra máu, thường là máu đỏ tươi, có cảm giác rặn tức ở hậu môn, mót rặn, đau rát hậu môn, đi ngoài thấy bũi trí sa ra ngoài hậu môn",
+        "phuong_phap_dieu_tri": "Tuân thủ theo chế độ ăn uống và sinh hoạt nghiêm ngặt, lành mạnh, các thuốc toàn thân uống: aflon 500mg, tại chỗ: Proctolog viên đặt hậu môn hoặc dạng cream bôi..., điều trị qua các phương pháp thủ thuật: tiêm xơ, thắt vòng cao su, quang đông hồng ngoại, nước sôi..., điều trị bằng phương pháp ngoại khoa (phẫu thuật): cắt trĩ, treo trĩ..",
+        "nguyen_nhan": "Rặn khi đi vệ sinh, ngồi lâu trên bồn cầu, tiêu chảy hoặc táo bón mãn tính, béo phì, mang thai, giao hợp qua đường hậu môn, chế độ ăn ít chất xơ"
+    },
+    {
+        "ma": "viem_dai_trang_man_tinh",
+        "ten": [
+            "viêm đại tràng mãn tính"
+        ],
+        "khai_niem": "Là tình trạng đại tràng bị viêm kéo dài, tức là viêm nhiễm ở mức độ nặng, gây tổn thương khu trú hoặc lan tỏa đến niêm mạc đại tràng.",
+        "trieu_chung": "Đau bụng và co thắt bùng kéo dài,; Phân bất thường, đi đại tiện phân lỏng, nhiều lần trong ngày, một số trường hợp có thể bị táo bón, mót rặn, phân có máu, chất nhầy hoặc không kèm nhầy; Cơ thể mệt mỏi, suy nhược chán ăn, ăn uống kém, toàn thân mệt mỏi, đầy bụng, giảm trí nhớ, ăn ngủ kém, thường xuyên cáu gắt, lo lắng; đau khớp hoặc ngón tay khoèo",
+        "phuong_phap_dieu_tri": "Bệnh viêm đại tràng mãn tính là bệnh kéo dài ngày, đã đến giai đoạn khó điều trị dứt điểm, các phương pháp điều trị chỉ có thể làm giảm triệu chứng bệnh mà rất khó để chữa khỏi hoàn toàn nên bệnh dễ dàng tái phát. Vì thế, điều trị viêm đại tràng mãn tính cần đảm bảo nguyên tắc chung kết hợp điều trị nội khoa toàn diện, thay đổi chế độ sinh hoạt, ăn uống và làm việc phù hợp.",
+        "nguyen_nhan": "Do bệnh lao, do crohn, viêm đại tràng chảy máu; nhiễm kí sinh trùng (Giun tóc, giun kim, giun đũa,…), nhiễm vi trùng gây bệnh đường ruột (Salmonella, Shigella,…), nhiễm độc, nhiễm nấm gây viêm đại tràng cấp tính nhưng không điều trị dứt điểm; chế độ ăn uống không điều độ, ăn quá nhiều thức ăn gây kích thích tổn thương dạ dày, niêm mạc đại tràng."
+    },
+    {
+        "ma": "sa_da_day",
+        "ten": [
+            "sa dạ dày"
+        ],
+        "khai_niem": "Là hiện tượng dạ dày không nằm đúng vị trí của nó. Đây là một trong những chứng bệnh sa nội tạng rất thường gặp. Bình thường, dạ dày nằm chủ yếu ở phần xương sườn thứ 11 bên trái, một phần khác nằm ở phần bụng trên. Khi mắc chứng bệnh này, dạ dày sa dài đến mào chậu, gây khó khăn cho việc có bóp và tiêu hóa.",
+        "trieu_chung": "Những cơn đau có thể co thắt liên tục, ở vùng thượng vị; thường xanh xao, ốm yếu, thường xuyên bị đau bụng, đầy hơi, mệt mỏi. Bệnh nhân cảm thấy mệt mỏi, giảm sức lao động, khó ngủ; Có cảm giác đầy bụng, ậm ạch, đau lâm râm, ở những bệnh nhân nghiêm trọng có các hiện tượng xuất huyết dạ dày, nôn ra máu…; ăn kém, chóng no; buồn nôn, nóng rát, ợ hơi; bị táo lỏng thất thường, trướng bụng đầy hơi; dạ dày giãn dài, co bóp yếu.",
+        "phuong_phap_dieu_tri": "Cách phòng tránh bệnh một cách tốt nhất chính là bạn nên thực hiện một chế độ ăn uống nghỉ ngơi khoa học, nên ăn vừa đủ không nên ăn quá no, sau khi ăn bạn không nên thực hiện các động tác mạnh; Tránh xa các chất kích thích: rượu, bia, thuốc lá,… Không nên ăn những món ăn khó tiêu, các thức ăn cay, nóng,...; Từ bỏ các thói quen xấu gây ảnh hưởng đến dạ dày: ăn không đúng bữa, lạm dụng đồ ăn nhanh, bỏ bữa sáng,…",
+        "nguyen_nhan": "Cơ thể suy yếu khí huyết hư tổn, nguyên khí chưa được khôi phục, người thường xuyên mệt mỏi ; Ăn uống không điều độ. Sau khi ăn no quá, vận động quá mạnh hoặc là người có tiền sử đau dạ dày làm cho trương lực và chức năng của dạ dày giảm yếu. Người suy nghĩ quá nhiều, tinh thần không yên ổn hoặc tinh thần luôn ở tình trạng căng thẳng, ăn uống giảm sút thời gian lâu làm cho tỳ vị hư yếu."
+    },
+    {
+        "ma": "nut_ke_hau_mon",
+        "ten": [
+            "nứt kẽ hậu môn"
+        ],
+        "khai_niem": "Là  một vết rách nhỏ nằm ở ống hậu môn và gây đau, chảy máu khi đại tiện. Nứt kẽ hậu môn thường xuyên xảy ra trong mỗi chúng ta, và thường bị nhầm lẫn với các bệnh khác ở vùng hậu môn, như bệnh trĩ.",
+        "trieu_chung": "Đại tiện rất đau và đau thường kéo dài vài phút đến vài giờ sau khi đại tiện, đại tiện ra máu đỏ tươi, vùng da xung quanh hậu môn bị nứt và lở loét, mệt mỏi tinh thần, suy nhược, hậu môn luôn trong tình trạng ẩm ướt, ngứa ngáy, xung quanh kẽ hậu môn dày lên, cứng và hình thành các vết loét, dịch hậu môn chảy vào các vết loét gây viêm nhiễm kéo dài.",
+        "phuong_phap_dieu_tri": "Thay đổi chế độ ăn, nhiều chất xơ, uống nhiều nước (2-3 lít/ngày) để phân mềm, khuôn hơn. Sử dụng những thuốc đặt tại chỗ để giảm đau, kháng viêm và ngâm hậu môn vào nước ấm 10-20 phút, nhiều lần trong ngày (đặc biệt sau khi đại tiện) sẽ làm dịu và lỏng cơ thắt hậu môn, do đó giúp quá trình liền vết thương tốt hơn. Một số thuốc bôi, đặt tại chỗ (nitroglicerin, nifedipine, diltiazem) có thể được sử dụng để làm cho cơ thắt lỏng hơn. Sử dụng thuốc này phải được kê đơn và hướng dẫn của bác sỹ chuyên khoa hậu môn trực tràng. Những bệnh nhân với vết nứt kẽ mãn tính, thường điều trị nội khoa không hiệu quả, tái phát và phẫu thuật là phương pháp điều trị hiệu quả nhất.",
+        "nguyen_nhan": "Do những chấn thương ở vùng ống hậu môn hoặc hậu môn bị giãn quá căng khi đại tiện. Cục phân rắn thường là nguyên nhân gây ra những chấn thương này. Nhưng phân lỏng khi bị tiêu chảy cũng là nguyên nhân gây nứt kẽ hậu môn. Những bệnh nhân có cơ thắt hậu môn (cơ vòng hậu môn) chặt thường có nguy có mắc bệnh nứt kẽ hậu môn cao hơn. Tăng độ chặt của cơ thắt hậu môn làm cho máu vào nuôi vùng bị tổn thương kém và ảnh hường đến quá trình liền vết thương."
+    },
+    {
+        "ma": "viem_tui_thua",
+        "ten": [
+            "viêm túi thừa"
+        ],
+        "khai_niem": "Là những cấu trúc dạng túi nhỏ phát triển trong thành của đại tràng. Viêm túi thừa là tình trạng khi có một hoặc nhiều túi thừa viêm. Khi túi thừa đại tràng bị nhiễm khuẩn, có thể gây ra viêm túi thừa, có thể bị viêm ở trong hay quanh túi thừa.Túi thừa đại tràng thường chứa phân bị kẹt, lâu dần đóng chắc lại thành cục đá phân (fecalith), làm nghẹt lòng túi thừa và ép vách túi thừa, làm vi trùng (thường xuyên rất nhiều trong phân ở đại tràng) phát triển mạnh trong túi thừa gây nên viêm túi thừa.",
+        "trieu_chung": "Đau bụng dưới, phía bên trái. Cơn đau có thể dữ dội và dịu dần sau khi đánh hơi hoặc đi tiêu; chướng bụng; tiêu chảy hoặc táo bón; phân lẫn máu đỏ tươi; sốt, rét run; buồn nôn, nôn.",
+        "phuong_phap_dieu_tri": "Thay đổi chế độ ăn để tạo điều kiện và thời gian cho cơ thể tự chữa lành tổn thương. Chế độ này thường bắt đầu bằng thức ăn lỏng như: Nước canh, súp, cháo… Khi tình trạng bệnh bắt đầu thuyên giảm, người bệnh có thể chuyển sang thực phẩm ít chất xơ hơn. Bên cạnh đó, để giảm đau, bác sĩ có thể chỉ định thuốc giảm đau như Acetaminophen.",
+        "nguyen_nhan": "Hiện chưa có kết luận chính xác về nguyên nhân gây ra căn bệnh này. Tuy nhiên, có một vài yếu tố có liên quan, thúc đẩy tình trạng này như quá trình lão hóa của cơ thể, ăn ít chất xơ, thừa cân, béo phì hay Sử dụng một số loại thuốc trong một thời gian dài có thể gây ra căn bệnh này. Các loại thuốc bày bao gồm: Thuốc chống viêm không steroid, opioid, steroid."
+    },
+    {
+        "ma": "roi_loan_da_day",
+        "ten": [
+            "rối loạn dạ dày"
+        ],
+        "khai_niem": "Là vấn đề thường gặp, xảy ra do những bất thường liên quan đến chế độ ăn uống và sinh hoạt không lành mạnh. Đây là hiện tượng các chức năng cơ quan này không diễn ra bình thường, khiến dạ dày hoạt động một cách bất thường, từ đó gây ra những vấn đề liên quan đến tiêu hóa khác. Rối loạn dạ dày thường gồm ba dạng: rối loạn chức năng vận động dạ dày, rối loạn chức năng tiết dịch vị và rối loạn cảm giác dạ dày.",
+        "trieu_chung": "Nóng ở ngực (cảm giác nóng rát xuất hiện ở ngay dưới vùng xương ức), đau xung quanh rốn, đau nhói xương sườn, nóng rát dạ dày, khó chịu vùng bụng, đau quặn bụng, tiêu chảy kéo dài, tiêu chảy ra máu, sốt.",
+        "phuong_phap_dieu_tri": "Có thể điều trị rối loạn dạ dày bằng việc dùng thuốc, cả đông y và tây y đều có các loại thuốc phù hợp để điều trị. Cần đến bệnh viện chẩn đoán đúng bệnh và phát hiện nguyên nhân gây ra các vấn đề rối loạn tiêu hóa, người bệnh sẽ được bác sĩ kê đơn thuốc phù hợp.",
+        "nguyen_nhan": "Yếu tố thần kinh: Stress, phẫn nộ, bực bội, khó chịu,... có thể làm niêm mạc dạ dày nhạt màu, giảm tiết dịch và giảm nhu động;nXảy ra sau khi mắc các bệnh như viêm ruột thừa mãn tính, viêm tụy, viêm đại tràng mãn tính, viêm gan, viêm túi mật,...; Chế độ ăn uống, chế độ sinh hoạt không lành mạnh: Ăn quá nhanh, nhai vội, ăn uống giờ giấc thất thường, vừa ăn vừa làm, lao động ngay sau khi ăn, sử dụng nhiều chất kích thích như rượu bia và đồ cay nóng,..."
+    },
+    {
+        "ma": "tieu_chay",
+        "ten": [
+            "tiêu chảy",
+            "hội chứng tiêu chảy"
+        ],
+        "khai_niem": "Là tình trạng tăng số lần đại tiện trong ngày, phân chứa nhiều nước và lượng phân tăng hơn bình thường. Phân ở dạng nhão (không thành khuôn) hay lỏng tùy tỉ lệ nước trong phân.",
+        "trieu_chung": "Đầy bụng, sôi bụng; Tiêu chảy liên tục, nhiều lần, lúc đầu phân lỏng, sau toàn nước (trong trường hợp bị bệnh tả: phân toàn nước đục như nước vo gạo); Nôn, lúc đầu nôn ra thức ăn, sau chỉ nôn ra toàn nước trong hoặc màu vàng nhạt;Người mệt lả, có thể bị chuột rút, biểu hiện tình trạng mất nước từ nhẹ đến nặng như: khát nước, da khô, nhăn nheo, hốc hác, mắt trũng, mạch nhanh, huyết áp hạ, có khi không đo được huyết áp, tiểu tiện ít hoặc vô niệu, chân tay lạnh… và có thể dẫn đến tử vong.",
+        "phuong_phap_dieu_tri": "Bù nước và điện giải khi bị tiêu chảy, Trường hợp bệnh tiêu chảy được xác định là do vi khuẩn hoặc ký sinh trùng gây ra, thuốc kháng sinh có thể giúp điều trị hiệu quả. Tuy nhiên, nếu nguyên nhân gây bệnh là virus thì kháng sinh sẽ không có tác dụng. Nếu nhận thấy một loại thuốc kháng sinh mà bạn đang sử dụng chính là nguyên nhân gây tiêu chảy, bác sĩ có thể giảm liều dùng xuống hoặc thay đổi sang loại thuốc khác để giúp chấm dứt tác dụng phụ này.",
+        "nguyen_nhan": "Ngoài nguyên nhân chính là rotavirus, bệnh tiêu chảy cũng có thể xuất phát từ nhiều nguyên nhân phổ biến khác như: nhiễm khuẩn đường ruột, vệ sinh kém, rối loạn vi sinh đường ruột, không hấp thu đường, ngộ độc thực phẩm, hội chứng ruột kích thích, viêm đại tràng,.."
+    },
+    {
+        "ma": "trao_nguoc_da_day",
+        "ten": [
+            "trào ngược dạ dày"
+        ],
+        "khai_niem": "Là tình trạng dịch trong dạ dày của cơ thể xuất hiện hiện tượng trào ngược lên thực quản",
+        "trieu_chung": "Ợ hơi, ợ nóng, ợ chua; buồn nôn; đau tức ngực thượng vị; ăn không ngon, khó nuốt; Các triệu chứng ho, viêm họng, miệng tiết nhiều nước bọt, khàn giọng",
+        "phuong_phap_dieu_tri": "Không nên ăn quá nhiều nhất là vào buổi tối, thực hiện chế độ ăn Low - carb (chế độ ăn ít đường và tinh bột), hạn chế uống rượu, cafe, các đồ uống có chất kích thích và đồ uống có ga, Tăng cường những chất có tác dụng trung hòa axit như: Các sản phẩm từ tinh bột: bột ngũ cốc, bột yến mạch, các loại bánh mì,.. Những thực phẩm này có tác dụng nhất định trong việc hạn chế sự bào mòn lớp dịch, axit trong dạ dày.",
+        "nguyen_nhan": "Là sự suy yếu của cơ thắt thực quản; do tác dụng phụ của một số loại thuốc tây: khi bạn dùng thuốc huyết áp hoặc một số loại thuốc Cholecystokinine, glucagon, aspirin,... tác dụng phụ trào ngược sẽ rất dễ xảy ra. Thói quen dùng các loại đồ uống chứa chất kích thích quá nhiều: cafe, thuốc lá,... cũng được cho là nguyên nhân gây bệnh trào ngược dạ dày thực quản.Các bệnh lý liên quan đến thực quản cũng khiến cho tình trạng trào ngược xuất hiện như: Tổn thương hệ thần kinh phó giao cảm thực quản, nhiễm trùng thực quản,..."
+    }
+]

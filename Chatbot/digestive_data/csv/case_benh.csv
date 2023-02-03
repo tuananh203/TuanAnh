@@ -1,0 +1,45 @@
+﻿p,d,t,n,c,dd,h,benh
+P-02,D-07,T-04,N-01,C-04,DD-01,H-01,Viêm loét dạ dày - tá tràng
+P-02,D-07,T-04,N-01,C-04 C-05 C-08,DD-01,H-01,Viêm loét dạ dày - tá tràng
+P-03,D-07,T-04,N-01,C-04,DD-01,H-01,Viêm loét dạ dày - tá tràng
+P-03,D-07,T-04,N-01,C-04 C-05 C-08,DD-01,H-01,Viêm loét dạ dày - tá tràng
+P-03,D-06,T-07,N-05,C-01,DD-01,H-01,Táo bón
+P-04,D-10,T-01,N-01,C-09,DD-01,H-02,Bệnh trĩ
+P-02,D-03,T-03,N-01,C-05,DD-01,H-01,Viêm đại tràng mãn tính
+P-02,D-04,T-03,N-01,C-05,DD-01,H-01,Viêm đại tràng mãn tính
+P-02 P-04,D-03 D-04,T-02 T-03 T-05,N-01,C-05,DD-01,H-01,Viêm đại tràng mãn tính
+P-03,D-03,T-03,N-01,C-05,DD-01,H-01,Viêm đại tràng mãn tính
+P-03,D-04,T-03,N-01,C-05,DD-01,H-01,Viêm đại tràng mãn tính
+P-03 P-04,D-03 D-04,T-02 T-03 T-05,N-01,C-05,DD-01,H-01,Viêm đại tràng mãn tính
+P-02 P-04 P-05,D-03 D-04,T-02 T-03 T-05,N-01,C-05,DD-01,H-01,Viêm đại tràng mãn tính
+P-03 P-04 P-05,D-03 D-04,T-02 T-03 T-05,N-01,C-05,DD-01,H-01,Viêm đại tràng mãn tính
+P-02,D-07,T-03,N-01,C-04,DD-02,H-01,Sa dạ dày
+P-02,D-07,T-03,N-01,C-09,DD-02,H-01,Sa dạ dày
+P-02,D-07,T-02 T-03 T-04,N-01,C-04 C-05 C-09,DD-02,H-01,Sa dạ dày
+P-02,D-07,T-02 T-03 T-04 T-06,N-01,C-04 C-05 C-06 C- 09,DD-02,H-01,Sa dạ dày
+P-03,D-07,T-03,N-01,C-04,DD-02,H-01,Sa dạ dày
+P-03,D-07,T-03,N-01,C-09,DD-02,H-01,Sa dạ dày
+P-03,D-07,T-02 T-03 T-04,N-01,C-04 C-05 C-09,DD-02,H-01,Sa dạ dày
+P-03,D-07,T-02 T-03 T-04 T-06,N-01,C-04 C-05 C-06 C- 09,DD-02,H-01,Sa dạ dày
+P-04,D-10,T-03,N-01,C-04,DD-01,H-03,Nứt kẽ hậu môn
+P-04,D-10,T-03,N-01,C-04,DD-01,H-04,Nứt kẽ hậu môn
+P-04,D-10,T-03,N-01,C-04,DD-01,H-03 H-04,Nứt kẽ hậu môn
+P-02,D-05,T-02,N-01,C-02,DD-01,H-01,Viêm túi thừa
+P-02 P-04,D-05,T-02,N-01,C-02,DD-01,H-01,Viêm túi thừa
+P-02 P-04,D-05,T-02,N-01,C-02 C-04,DD-01,H-01,Viêm túi thừa
+P-03,D-05,T-02,N-01,C-02,DD-01,H-01,Viêm túi thừa
+P-03 P-04,D-05,T-02,N-01,C-02,DD-01,H-01,Viêm túi thừa
+P-03 P-04,D-05,T-02,N-01,C-02 C-04,DD-01,H-01,Viêm túi thừa
+P-02,D-08,T-01,N-01,C-09,DD-03,H-01,Rối loạn dạ dày
+P-02,D-09,T-01,N-01,C-09,DD-03,H-01,Rối loạn dạ dày
+P-02 P-04,D-08,T-01,N-01,C-09,DD-03,H-01,Rối loạn dạ dày
+P-02 P-04,D-09,T-01,N-01,C-09,DD-03,H-01,Rối loạn dạ dày
+P-02 P-04,D-08 D-09,T-01,N-01,C-09,DD-03,H-01,Rối loạn dạ dày
+P-02,D-01,T-03,N-02,C-04,DD-01,H-01,Tiêu chảy
+P-02,D-01,T-03,N-02,C-07,DD-01,H-01,Tiêu chảy
+P-02,D-01,T-03,N-02 N-03 N-04,C-04 C-07,DD-01,H-01,Tiêu chảy
+P-01,D-02,T-02,N-01,C-03,DD-02,H-01,Trào ngược dạ dày
+P-01,D-02,T-02,N-01,C-04,DD-02,H-01,Trào ngược dạ dày
+P-01,D-02,T-02,N-01,C-08,DD-02,H-01,Trào ngược dạ dày
+P-01,D-02,T-02,N-01,C-04 C-08,DD-02,H-01,Trào ngược dạ dày
+P-01,D-02,T-02,N-01,C-03 C-04 C-08,DD-02,H-01,Trào ngược dạ dày
